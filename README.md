@@ -6,9 +6,11 @@ MealMate is a mobile application aimed directly at students who live on a tight 
 
 ## Team Information: 
 
-| Task Name        | Status      | Due Date        |
-|------------------|:-----------:|----------------:|
-| Draft proposal   | In Progress | October 20, 2025|
-| Review feedback  | Not Started | October 25, 2025|
-| Final submission | Not Started | November 5, 2025 |
-| **Project Launch** | **Blocked** | **November 15, 2025** |
+| Task Name        | ID     |
+|------------------|:-----------:|
+| Teoman Ceyhun Etiz  | 33560 |
+| Rayen Tabassi | 33581 | 
+| Doruk Kocaman | 34103 |
+| Emir Ceylan | 34110 | 
+| Mustafa Emir Akcasari | 33606 |
+
