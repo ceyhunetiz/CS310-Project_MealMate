@@ -14,3 +14,5 @@ MealMate is a mobile application aimed directly at students who live on a tight 
 | Emir Ceylan | 34110 | 
 | Mustafa Emir Akcasari | 33606 |
 
+## Step 2.1: 
+Each group member contributed in designing two of the 10 wireframe pages of our apps UI. The desgins were combined within a single figma file and converted to pdf with explanations for each page. 
