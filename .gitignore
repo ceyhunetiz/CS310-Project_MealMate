@@ -34,3 +34,4 @@ android/app/release/
 
 # OS
 .DS_Store
+*.zip
