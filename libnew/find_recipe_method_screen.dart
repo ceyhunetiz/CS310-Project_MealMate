@@ -1,7 +1,5 @@
-
-
 import 'package:flutter/material.dart';
-import 'package:ceyhunetiz_implementation/ingredients_page.dart';
+import 'ingredients_page.dart'; // ✅ FIXED import
 import 'utils/app_colors.dart';
 
 class FindRecipeMethodScreen extends StatelessWidget {
@@ -19,21 +17,17 @@ class FindRecipeMethodScreen extends StatelessWidget {
         actions: [
           IconButton(
             icon: const Icon(Icons.notifications_none, color: Colors.black87),
-            onPressed: () {
-              
-            },
+            onPressed: () {},
           ),
         ],
       ),
 
       body: SafeArea(
         child: Padding(
-          padding:
-              const EdgeInsets.symmetric(horizontal: 24.0, vertical: 16),
+          padding: const EdgeInsets.symmetric(horizontal: 24.0, vertical: 16),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              
               const Text(
                 'Find Recipe',
                 style: TextStyle(
@@ -58,7 +52,6 @@ class FindRecipeMethodScreen extends StatelessWidget {
 
               const SizedBox(height: 32),
 
-              
               _OptionCard(
                 backgroundColor: const Color(0xFFD9EEFF),
                 borderColor: const Color(0xFFB9EBFF),
@@ -79,7 +72,6 @@ class FindRecipeMethodScreen extends StatelessWidget {
 
               const SizedBox(height: 24),
 
-              
               _OptionCard(
                 backgroundColor: const Color(0xFFFFF4C9),
                 borderColor: const Color(0xFFFDBA74),
@@ -93,7 +85,7 @@ class FindRecipeMethodScreen extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (_) => const IngredientsPage(),
+                      builder: (_) => const IngredientsPage(), // ✅ FIXED
                     ),
                   );
                 },
