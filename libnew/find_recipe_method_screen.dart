@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'ingredients_page.dart'; // ✅ FIXED import
+import 'ingredients_page.dart'; // 
 import 'utils/app_colors.dart';
 
 class FindRecipeMethodScreen extends StatelessWidget {
@@ -85,7 +85,7 @@ class FindRecipeMethodScreen extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (_) => const IngredientsPage(), // ✅ FIXED
+                      builder: (_) => const IngredientsPage(), 
                     ),
                   );
                 },
